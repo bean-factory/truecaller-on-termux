@@ -75,7 +75,7 @@ while true; do
                   fi
 
 
-                  termux-notification --id "$notificationId" -t "$title" -c "$data"
+                  termux-notification --id "$notificationId" -t "$title"
 
                   echo '$title-$phoneNumber'
 
